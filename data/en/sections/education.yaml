@@ -1,0 +1,90 @@
+# section information
+section:
+  name: Education
+  id: education
+  template: sections/education.html # Use "sections/education-alt.html for alternate template.
+  enable: true
+  weight: 4
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+degrees:
+- name: M.Tech in Communication Engineering
+  icon: fa-broadcast-tower
+  timeframe: 2016-20218
+  institution:
+    name: Galgotias University
+    url: "https://www.galgotiasuniversity.edu.in/"
+  grade: #(optional)
+    scale: CGPA
+    achieved: 7.72
+    outOf: 10
+  #publications: #(optional)
+  #- title: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+  #  url: "#"
+  #- title: Fusce eu augue ut odio porttitor pulvinar.
+  #  url: "#"
+  #- title: Nullam vitae orci tincidunt purus viverra pulvinar.
+  #  url: "#"
+- name: B.Tech. in Electronic & Communication Engineering
+  icon: fa-graduation-cap
+  timeframe: 2011-2015
+  institution:
+    name: I. K. Gujral Punjab Technical University
+    url: "https://ptu.ac.in/"
+  grade: #(optional)
+    scale: Percentage
+    achieved: 68.5%
+    outOf: 100%
+  #takenCourses: #(optional)
+    # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
+  #  showGrades: false
+  #  courses:
+  #  - name: Data Structures and Algorithm
+  #    achieved: 3.75
+  #    outOf: 4
+  #  - name: Network Security
+  #    achieved: 3.80
+  #    outOf: 4
+  #  - name: Operating System
+  #    achieved: 3.5
+  #    outOf: 4
+  #  - name: Artificial Intelligent
+  #    achieved: 3.75
+  #    outOf: 4
+  #publications: #(optional)
+  #- title: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+  #  url: "#"
+  #- title: Fusce eu augue ut odio porttitor pulvinar.
+  #  url: "#"
+  #extracurricularActivities: #(optional)
+  #- In vitae facilisis est, eget porta sem.
+  #- Vestibulum consectetur lorem justo, at laoreet lorem feugiat et.
+  #- Duis sed massa feugiat, ornare justo et, aliquam est.
+  #- Pellentesque ut fringilla magna.
+- name: 12th
+  icon: fa-university
+  timeframe: 2009-2011
+  institution:
+    name: Gyan Bharti Public School
+    url: "http://www.gyanbhartipublicschool.com/"
+  grade: #(optional)
+    scale: Percentage
+    achieved: 66%
+    outOf: 100%
+  #extracurricularActivities: #(optional)
+  #- In vitae facilisis est, eget porta sem.
+  #- Vestibulum consectetur lorem justo, at laoreet lorem feugiat et.
+  #- Duis sed massa feugiat, ornare justo et, aliquam est.
+  #- Pellentesque ut fringilla magna.
+- name: 10th
+  icon: fa-school
+  timeframe: 2001-2009
+  institution:
+    name: Gyan Bharti Public School
+    url: "http://www.gyanbhartipublicschool.com/"
+  grade: #(optional)
+    scale: Percentage
+    achieved: 76%
+    outOf: 100%
